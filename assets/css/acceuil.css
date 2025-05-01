@@ -461,6 +461,25 @@ body {
         padding: 10px;
         font-size: 12px;
     }
+     .navbar button.icon {
+        display: block; /* Show the icon button */
+        font-size: 24px;
+        color: #a3a380;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        background-color: red ;
+        border: none;
+        cursor: pointer;
+        width: 50px;
+        transition: 1s;
+    }
+    .navbar button.icon:active {
+        outline: none;
+        color: #fffff4;
+        transform: translateY(-5px);
+        transition: all 0.5s linear;
+    }
     
 }
 /* Responsive Design */
