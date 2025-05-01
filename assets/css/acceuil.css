@@ -525,6 +525,7 @@ body {
     border-radius: 0px;
     transition: all 0.5s linear; 
     letter-spacing: 1px;
+    color: #fffff4;
 }
 .story .ourstory button:hover {
     width: 320px;
@@ -742,6 +743,7 @@ body {
     .chi3ar {
         height: 250px;
         padding: 10px;
+         background-image: none;
     }
     
     .chi3ar h1 {
@@ -756,7 +758,7 @@ body {
     
  }
  .menu { 
-    background-color: #4b2e2a;
+    background-color:  #a3a380;
     background-size: cover;
     background-repeat: no-repeat;
     display : flex ; 
@@ -772,6 +774,11 @@ body {
     text-align: center;
     transition: all 0.3s linear ,forwards;
     
+ }
+.menu:hover {
+    height: 800px;
+    border-top-right-radius: 250px;
+    background-color: #4b2e2a;
  }
  .menu h1 { 
     font-size: 60px;
@@ -840,6 +847,7 @@ body {
     .menu { 
         position: relative;
         top: 700px;
+        background-color: #4b2e2a;
     }
     .m1 h2 {
         font-size: 24px;
@@ -872,7 +880,9 @@ body {
     align-items: center;
     gap: 50px;
   }
-  
+  .suc:hover { 
+    background-color: #a3a380;
+  }
   .sucre { 
     display: flex;
     flex-direction: column;
@@ -927,6 +937,7 @@ body {
     .suc {
       top: 600px;
       padding: 60px 10px;
+        background-color: #a3a380;
     }
   
     .sucre h1 {
@@ -969,6 +980,7 @@ body {
         .goutez {
             height: 300px;
             padding: 100px 20px;
+            
         }
         
         .goutez h1 {
@@ -985,8 +997,7 @@ body {
         .goutez {
             height: 250px;
             padding: 80px 10px;
-            background-size: cover;
-            object-fit: cover;
+          background-image: none;
         }
         
         .goutez h1 {
@@ -1092,6 +1103,7 @@ body {
     @media screen and (max-width: 480px) {
         .service {
             padding: 10px;
+            background-color: #4b2e2a;
         }
         
         .service img {
@@ -1147,6 +1159,7 @@ body {
         font-family: sans-serif;
         text-decoration: none;
         color : white ;
+        display: flex;
     }
     @media screen and (max-width: 800px) {
         .candp {
@@ -1172,6 +1185,12 @@ body {
         }
         .cand .ico { 
             width: 40px;
+        }
+        
+    }
+@media screen and (max-width: 480px) {
+        .candp {
+            background-image: none;
         }
         
     }
