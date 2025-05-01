@@ -219,7 +219,9 @@ body {
 .navbar ul li a:hover { 
     border-bottom: 2px solid white;
 }
-
+.navbar .icon { 
+    display: none ; 
+}
 
 /* Content */
 .content { 
