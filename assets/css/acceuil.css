@@ -469,6 +469,7 @@ body {
         right: 20px;
         top: 60px;
         border: none;
+         background-color:transparent;
         cursor: pointer;
         width: 50px;
         transition: 1s;
