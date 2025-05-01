@@ -14,3 +14,7 @@ function rejectCookies() {
     localStorage.setItem("cookiesAccepted", "false");
     document.getElementById("cookiesBar").style.display = "none";
 }
+function myFunction() {
+    const menu = document.getElementById("mylinks");
+    menu.classList.toggle("show");
+}
