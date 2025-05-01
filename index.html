@@ -28,13 +28,17 @@
 </div>
     <header class="banner" role="banner">
   <video autoplay loop muted playsinline aria-label="Coffee brewing video background">
+      <!-- Fallback for browsers that don't support video -->
+      <img src="assets/imgs/fallback.jpg" alt="Coffee shop background">
       <source src="assets/imgs/video3.mp4" type="video/mp4">
   </video>
   <div class="overlay" aria-hidden="true"></div>
   
   <nav class="navbar" aria-label="Main navigation">
       
-          <img src="assets/imgs/logo.png" alt="Aromeo Coffee Logo" class="logo">
+         <a href="index.html">
+          <img src="assets/imgs/logo.png" class="logo">
+      </a>
       <ul id="mylinks" role="menu">
           <li role="none"><a href="index.html" class="ac" role="menuitem">Accueil</a></li>
           <li role="none"><a href="menu.html" role="menuitem">Menu</a></li>
