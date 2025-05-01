@@ -851,6 +851,9 @@ body {
         top: 700px;
         background-color: #4b2e2a;
     }
+    .menu:hover { 
+       border-top-right-radius: 0;
+    }
     .m1 h2 {
         font-size: 24px;
     }
