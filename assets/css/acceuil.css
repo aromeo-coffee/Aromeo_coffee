@@ -745,6 +745,7 @@ body {
     .chi3ar {
         height: 300px;
         padding: 20px;
+        
     }
     
     .chi3ar h1 {
@@ -765,16 +766,19 @@ body {
         height: 250px;
         padding: 10px;
          background-image: none;
+        position: relative;
+        top: 100px;
+        left: 0;
     }
     
     .chi3ar h1 {
-        font-size: 30px;
+        font-size: 29px;
         margin-top: 20px;
     }
     
     .chi3ar p {
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: 40px;
     }
     
  }
@@ -867,7 +871,7 @@ body {
     
     .menu { 
         position: relative;
-        top: 700px;
+        top: 400px;
         background-color: #4b2e2a;
     }
     .menu:hover { 
