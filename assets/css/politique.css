@@ -28,7 +28,8 @@ header:hover {
 }
 
 header .logo img { 
-     width: 40%;
+     width: 150px ; 
+     height: 120px ; 
 }
 header .ac { 
     border-bottom: 2px solid #ffffff;
