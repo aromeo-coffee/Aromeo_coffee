@@ -28,8 +28,10 @@ header:hover {
 }
 
 header .logo img { 
-    width: 170px;
-    height: 220px;
+   width: 150px;
+     position: relative;
+     left: 40px;
+     bottom: 200px;
 }
 header .ac { 
     border-bottom: 2px solid #ffffff;
