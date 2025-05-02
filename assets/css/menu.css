@@ -86,6 +86,102 @@ nav {
         opacity: 1;
         transform: translateY(-90px);
     }
+} 
+    @media screen and (max-width:480px) { 
+    body , html { 
+        overflow-x: hidden;
+    }
+    nav .logo img { 
+        width: 80px;
+        position: static;
+        left: 40px;
+         margin-bottom: 400px;
+        /* or fixed width for consistency */
+    }
+    nav { 
+         background-image: none;
+         z-index: 10;
+    }
+    nav::before { 
+        content:' ';
+        width: 100%;
+        height: 100%;
+        background-color: #b32626;
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: blur(170px);
+        z-index: -1;
+        opacity: 0.5;
+    }
+   nav .nav-links  { 
+        display: none;
+        padding: 30px 0px;
+        flex-direction: column; /* Stack logo and nav vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        left: -80px;
+        bottom: 150px;
+        width: 300px;
+        margin: 0;
+        border-radius: 30px;
+        background-color:#4b2e2a;
+        opacity: 1;
+        animation: showw 0.5s forwards;
+        /* Semi-transparent background */
+    }
+    @keyframes showw { 
+            from {
+              border-radius: 0px;
+              opacity: 0.3;
+            }
+            to {
+              border-radius: 30px;
+              opacity: 1;
+            }
+          
+    }
+    nav .nav-links.show { /* Class to be toggled by JavaScript */
+        display: flex;
+    }
+    nav .nav-links a { 
+        display: block;
+        margin-right: 150px;
+        font-size: 14px; 
+        border:none;
+        width: 23%;
+        letter-spacing: 1px;
+        color: #a3a380;
+        cursor: pointer;
+    }
+    nav .nav-links .ac { 
+        border-bottom: none;
+    }
+   nav .nav-links a:hover { 
+        border-bottom: none;
+    }
+    .content {
+        text-align: center;
+        transform: translate(-50% , -50%);
+        left: 5%;
+    }
+   .content h1 { 
+        font-size: 20px;
+        margin-top: 100px;
+        text-align: center;
+        z-index: 1;
+    }
+    nav button.icon {
+        display: block;
+        font-size: 24px;
+        color: #c49a6c;
+        position: absolute;
+        right: 30px;
+        background: none;
+        border: none;
+    }
+     
 }
 /*header { 
     width: 100%;
@@ -157,8 +253,22 @@ header nav a:hover {
       line-height: 1.5;
       transition: 0.5s linear;
      text-align: center;
+} 
+@media  screen and (max-width : 480px) {
+    .explore p { 
+        font-size: 20px ;
+        width: 100%;
+        padding: 20px;
+        text-shadow: #a3a380 13px 10px 10px ;
+        position: relative;
+        left: 50%;
+        top :650px ;
+        transform: translateX(-50%);
+        line-height: 1.5;
+        transition: 0.5s linear;
+       text-align: center;
+    }
 }
-
 /*carousel*/
 .carousel {
     margin-top: 0px;
@@ -531,9 +641,9 @@ header nav a:hover {
         width : 90% ; 
     }
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 768px) { 
    .carousel .list .item { 
-      width : 100% ;
+      width: 100% ;
       font-size: 10px;
    }
    .carousel { 
@@ -543,13 +653,21 @@ header nav a:hover {
      width: 100%;
    }
    .carousel .list .item .intro { 
-         width : 50% ; 
+         width: 50% ; 
    }
    .carousel .list .item img { 
         width: 50%;
    }
+    .carousel .arrows #prev  { 
+        font-size: 30px;
+        margin: 30px;
+   }
+    .carousel .arrows #next { 
+        font-size: 30px;
+        margin: 30px;
+    }
    .carousel.showdetails .list .item .details .title { 
-        font-size : 30px
+        font-size: 30px
    }
 }
 iframe { 
@@ -560,6 +678,13 @@ iframe {
     left: 50% ;
     top : 1000px ;
     transform: translateX(-50%);
+}
+    @media screen and (max-width: 480px) {
+    iframe {
+        width: 100%;
+        height: 200px;   
+    }
+    
 }
 .footer { 
     background-color: black;
@@ -606,4 +731,22 @@ iframe {
     font-weight: 100;
     font-family: sans-serif;
     color : #4b2e2a ;
+}
+    @media screen and (max-width: 480px) {
+    .footer {
+        padding: 20px 10px;
+        gap: 40px;
+    }
+    .footer h1 {
+        font-size: 24px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+    }
+    
+    .footer a {
+        font-size: 12px;
+    }
+
 }
