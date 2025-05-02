@@ -31,6 +31,16 @@ nav {
      left: 40px;
      bottom: 200px;/* or fixed width for consistency */
   }
+   button.icon {
+    display: none;
+    font-size: 24px;
+    color: #c49a6c;
+    position: absolute;
+    right: 60px;
+    top: 80px;
+    background: none;
+    border: none;
+}
   
   .nav-links {
     display: flex;
