@@ -60,3 +60,10 @@ seemorebutton.forEach( button => {
 backbutton.onclick = function () {
     carousel.classList.remove('showdetails');
 }
+
+
+
+function myFunction() {
+    const buildf = document.getElementById("mylinks");
+    buildf.classList.toggle("show");
+}
