@@ -92,7 +92,7 @@ body {
         padding: 20px;
         font-size: 14px;
     }
-    
+   
     .cookies-bar h1 {
         font-size: 30px;
     }
@@ -112,7 +112,11 @@ body {
         padding: 15px;
         font-size: 12px;
     }
-    
+     .cookies-bar:hover { 
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+
+    }
     .cookies-bar h1 {
         font-size: 24px;
         text-align: center ;
@@ -284,7 +288,7 @@ body {
 }
 /* Media Query for Phones (up to 767px) */
 @media screen and (max-width: 800px) {
-    body, html {
+    body {
         overflow-x: hidden;
         background-color: black;
     }
@@ -324,7 +328,8 @@ body {
         padding: 0;
         margin: 0;
         border-radius: 30px;
-        background-color:#4b2e2a;
+        background-color: black;
+        border: 1px solid #a3a380;
         opacity: 1;
         transition: 2s  linear;
         animation: showw 0.5s forwards;
