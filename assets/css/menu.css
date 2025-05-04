@@ -105,7 +105,7 @@ nav {
         width: 145px;
         position: static;
         left: 50px;
-         margin-bottom: 400px;
+         margin-bottom: 470px;
         /* or fixed width for consistency */
     }
     nav { 
@@ -132,11 +132,10 @@ nav {
         justify-content: center;
         gap: 30px;
         bottom: 150px;
-        left: -80px;
+        left: 30px;
         width: 200px;
         background-color:#000000;
         border: 1px solid #a3a380;
-        opacity: 1;
         animation: showw 2.3s forwards;
         /* Semi-transparent background */
     }
@@ -160,7 +159,7 @@ nav {
     }
     nav .nav-links a { 
         display: block;
-        font-size: 16px; 
+        font-size: 10px; 
         border:none;
         text-align: left ;
         letter-spacing: 1px;
@@ -169,6 +168,8 @@ nav {
     }
     nav .nav-links .ac { 
         border-bottom: none;
+        color:#c49a6c;
+        font-weight: 900;
     }
    nav .nav-links a:hover { 
         border-bottom: none;
