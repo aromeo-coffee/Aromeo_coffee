@@ -186,11 +186,12 @@ nav {
         z-index: 1;
     }
     nav button.icon {
-        display: block;
+       display: block;
         font-size: 24px;
         color: #c49a6c;
         position: absolute;
-        right: 25px;
+        right: 30px;
+        top: 45px;
         background: none;
         border: none;
     }
