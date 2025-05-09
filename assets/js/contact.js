@@ -63,3 +63,9 @@ window.onload = function () {
             });
     });
 };
+
+
+function myFunction() {
+    const buildf = document.getElementById("mylinks");
+    buildf.classList.toggle("show");
+}
