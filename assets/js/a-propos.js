@@ -29,3 +29,8 @@ const updatecounter = setInterval(function () {
     counte1.textContent = `${Math.floor(counternumber1)} +`;
     counte2.textContent = `${counternumber2.toFixed(2)} %`;
 }, 20); // animation duration: totalSteps * interval (≈ 4s here)
+
+function myFunction() {
+    const buildf = document.getElementById("mylinks");
+    buildf.classList.toggle("show");
+}
