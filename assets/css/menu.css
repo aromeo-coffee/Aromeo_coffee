@@ -136,7 +136,7 @@ nav {
         width: 200px;
         background-color:#000000;
         border: 1px solid #a3a380;
-        animation: showw 2.3s forwards;
+        animation: showw 1.7s forwards;
         /* Semi-transparent background */
     }
     @keyframes showw { 
