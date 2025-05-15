@@ -25,14 +25,11 @@ nav {
     position: absolute;
   }
   
-  nav .logo { 
-    width:40% ;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-nav .logo:hover { 
-    transform: scale(1.1);
+ nav .logo img {
+  width: 150px;
+   position: relative;
+   left: 40px;
+   bottom: 200px; /* or fixed width for consistency  */
 }
    button.icon {
     display: none;
