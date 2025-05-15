@@ -368,7 +368,9 @@ body {
         color: #a3a380;
     }
     .navbar .ac {
-        border: none;
+        border-bottom: none;
+        color:#c49a6c;
+        font-weight: 900;
     }
     .navbar button.icon {
         display: block; /* Show the icon button */
