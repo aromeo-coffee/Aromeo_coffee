@@ -461,7 +461,11 @@ body {
         font-size: 12px;
         line-height: 1.4;
     }
-    
+    .navbar .ac {
+        border-bottom: none;
+        color:#c49a6c;
+        font-weight: 900;
+    }
     .but1 button {
         width: 100%;
         max-width: 200px;
