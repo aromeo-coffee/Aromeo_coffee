@@ -1,14 +1,17 @@
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-   
-  }
-    body{ 
-      background-color: #000000;
-      overflow-x: hidden;
-  }
-  nav {
+* { 
+    margin: 0 ; 
+    padding : 0;
+}
+body {
+    font-family: didot;
+    background-color: #000000; 
+    overflow-x: hidden;
+}
+a { 
+    text-decoration: none;
+    color :#fff;
+}
+nav {
     width: 100%;
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../imgs/14.jpg);
@@ -22,13 +25,13 @@
     position: absolute;
   }
   
-  nav .logo img {
-    width: 150px;
-     position: relative;
-     left: 40px;
-     bottom: 200px; /* or fixed width for consistency  */
-  }
-button.icon {
+ nav .logo img {
+  width: 150px;
+   position: relative;
+   left: 40px;
+   bottom: 200px; /* or fixed width for consistency  */
+}
+   button.icon {
     display: none;
     font-size: 24px;
     color: #c49a6c;
@@ -38,6 +41,7 @@ button.icon {
     background: none;
     border: none;
 }
+  
   .nav-links {
     display: flex;
     gap: 90px;
@@ -69,7 +73,7 @@ button.icon {
       width: 100%;
       max-width: 90%;
       position: absolute;
-      left: 25% ;
+      left: 20% ;
       top:50% ;
       transform: translate(-50% , -30% );
       align-items: center;
@@ -78,27 +82,27 @@ button.icon {
       animation-delay: 0.7s;
       opacity: 0;
       pointer-events: none;
+      z-index: 100;
       font-family: didot;
       font-size: 2em;
-      color: #e3c6a8 ;
+      color: #a3a380;
       letter-spacing: 1px;
   }
-  
   @keyframes one{ 
-      from{
-          transform: translateY(0px);
-      }
-      to{ 
-          opacity: 1;
-          transform: translateY(-90px);
-      }
-  }
-@media screen and (max-width:480px) { 
+    from{
+        transform: translateY(0px);
+    }
+    to{ 
+        opacity: 1;
+        transform: translateY(-90px);
+    }
+} 
+    @media screen and (max-width:480px) { 
     body { 
         overflow-x: hidden;
     }
     nav .logo img { 
-        width: 80px;
+         width: 80px;
         position: static;
         left: 40px;
          margin-bottom: 480px;
@@ -136,25 +140,25 @@ button.icon {
         /* Semi-transparent background */
     }
     @keyframes showw { 
-        from { 
-            opacity: 0;
+            from {
+             opacity: 0;
             transform: translateY(-100%);
             border-bottom-left-radius: 250px;
             border-bottom-right-radius: 250px;
-        }
-        to { 
-            opacity: 1;
+            }
+            to {
             transform: translateY(0);
+            opacity: 1;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
-            
-        }
+            }
+          
     }
     nav .nav-links.show { /* Class to be toggled by JavaScript */
         display: flex;
     }
     nav .nav-links a { 
-        display: block;
+         display: block;
         font-size: 10px; 
         border:none;
         text-align: left ;
@@ -164,7 +168,7 @@ button.icon {
     }
     nav .nav-links .ac { 
         border-bottom: none;
-        color: #c49a6c;
+        color:#c49a6c;
         font-weight: 900;
     }
    nav .nav-links a:hover { 
@@ -177,12 +181,12 @@ button.icon {
     }
    .content h1 { 
         font-size: 20px;
-        margin-top: 250px;
+        margin-top: 100px;
         text-align: center;
         z-index: 1;
     }
     nav button.icon {
-        display: block;
+       display: block;
         font-size: 24px;
         color: #c49a6c;
         position: absolute;
@@ -192,7 +196,7 @@ button.icon {
         border: none;
     }
      
-  }
+}
   .contact-container { 
     width: 100%;
     max-width: 95%;
