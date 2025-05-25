@@ -443,6 +443,7 @@ span.counter1 , span.counter2 {
   border-right: 1px solid  #442915 ;
   border-top-right-radius: 190px;
   position: relative;
+  bottom:600px;
 
 }
 .histoire p { 
