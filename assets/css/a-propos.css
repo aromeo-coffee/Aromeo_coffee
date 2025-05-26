@@ -406,6 +406,7 @@ span.counter1 , span.counter2 {
   }
   
 }
+
 .histoire {
   display: flex;
   flex-wrap: wrap;
@@ -434,7 +435,7 @@ span.counter1 , span.counter2 {
   line-height: 1.3;
   color: #a3a380;
   max-width: 600px;
-  height: 160px;
+  height: 260px;
   padding: 70px ;
   letter-spacing: 1px;
   text-align: justify;
@@ -443,7 +444,7 @@ span.counter1 , span.counter2 {
   border-right: 1px solid  #442915 ;
   border-top-right-radius: 190px;
   position: relative;
-  bottom:600px;
+  bottom: 300px;
 
 }
 .histoire p { 
