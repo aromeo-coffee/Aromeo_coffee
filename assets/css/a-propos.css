@@ -9,7 +9,7 @@ body {
 }
 a { 
     text-decoration: none;
-    color :#fff;
+    color:#fff;
 }
 nav {
     width: 100%;
@@ -198,7 +198,7 @@ nav {
      
 }
 .about {
-  width : 100% ; 
+  width: 100% ; 
   max-width: 90%;
   position: relative;
   left: 8%;
@@ -235,7 +235,7 @@ nav {
    align-items: center;
 }
 span.counter1 , span.counter2 { 
-  color :  #a3a380  ; 
+  color:  #a3a380  ; 
   font-size: 2em;
   font-weight: bold;
 }
@@ -269,14 +269,14 @@ span.counter1 , span.counter2 {
 .promes { 
   width:100% ; 
   position: relative;
-  top : 1000px ;
+  top: 1000px ;
   
 }
 .promes img { 
-  width : 50% ;
+  width: 50% ;
   height: 1000px;
   position: absolute;
-  left : 50%;
+  left: 50%;
   top: 00px;
   z-index: -100;
 }
@@ -335,8 +335,8 @@ span.counter1 , span.counter2 {
   width: 600px;
   height: 200px;
   position: relative;
-  top : 150px ;
-  left : 25%;
+  top: 150px ;
+  left: 25%;
   padding: 50px ;
   text-align: left;
   border: 1px solid #0a0603;
@@ -553,7 +553,7 @@ iframe {
   font-weight: 100;
   font-family: sans-serif;
   text-decoration: none;
-  color : #c49a6c;
+  color: #c49a6c;
   transition: all 0.3s linear;
 }
 .footer a:hover { 
@@ -566,7 +566,7 @@ iframe {
   font-size: 18px;
   font-weight: 100;
   font-family: sans-serif;
-  color : #4b2e2a ;
+  color: #4b2e2a ;
 }
 @media screen and (max-width: 480px) {
   .footer {
