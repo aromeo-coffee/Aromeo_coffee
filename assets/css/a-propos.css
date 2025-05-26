@@ -475,10 +475,11 @@ span.counter1 , span.counter2 {
       padding: 20px ;
       text-align: justify;
       width: 87%;
+      height:auto;
       position: absolute;
       top: -250px;
       box-shadow: 0 -2px 8px 0px rgba(240, 100, 19, 0.5);
-      left: 20px;
+      left: 5px;
       color: #654024;
       background-color: rgba(168, 166, 166, 0.038);
       border-top-right-radius: 0px;
