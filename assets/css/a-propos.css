@@ -476,7 +476,7 @@ span.counter1 , span.counter2 {
       font-size: 1.3em;
       padding: 20px ;
       text-align: justify;
-      width: 87%;
+      width: 80%;
       height:auto;
       position: absolute;
       top: -250px;
@@ -576,7 +576,7 @@ iframe {
       padding: 20px 10px;
       gap: 40px;
       top: 1300px;
-      left:20px
+      left:-5px
   }
   .footer h1 {
       font-size: 24px;
