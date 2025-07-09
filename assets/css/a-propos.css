@@ -339,7 +339,7 @@ span.counter1 , span.counter2 {
   position: relative;
   top: 150px ;
   left: 25%;
-  padding: 50px ;
+  padding: 30px ;
   text-align: left;
   border: 1px solid #0a0603;
 }
@@ -349,6 +349,7 @@ span.counter1 , span.counter2 {
    font-weight: 1;
    letter-spacing: 1px;
    line-height: 1.4;
+   margin: 40px 90px 70px 90px;
    color: #555;
 }
 .plat h3 { 
